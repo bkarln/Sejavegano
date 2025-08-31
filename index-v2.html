@@ -104,7 +104,7 @@
 
     // Usa a variável global __api_key, se ela existir. Caso contrário, usa uma string vazia.
     // Isso garante que a chave seja injetada corretamente no ambiente do Canvas e não quebre em outros ambientes.
-    const apiKey = typeof __api_key !== 'undefined' ? __api_key : ''; 
+    const apiKey = typeof __api_key !== 'undefined' ? __api_key : 'AIzaSyAnxwyrO5fhLPLukJ6WRu5z8tjxli1rCmo'; 
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 
     imagePreview.addEventListener('click', () => {
@@ -176,3 +176,4 @@
 
 </body>
 </html>
+
