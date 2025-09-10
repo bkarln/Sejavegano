@@ -1,0 +1,38 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor de código
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Build e deploy
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+*.bak
+
+# Arquivos de imagem gerados
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
